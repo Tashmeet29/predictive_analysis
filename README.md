@@ -78,6 +78,8 @@ python app.py
 
  A sample dataset (sample_data.csv) is included in the data/ folder.
 
+![image](https://github.com/user-attachments/assets/72e18cc3-4924-473e-89fa-faac16b9b006)
+
 ### *Dependencies*
 
  Flask
@@ -89,6 +91,12 @@ python app.py
 ## *Testing*
 
  Use tools like Postman or cURL to test the API endpoints.
+
+## *Screenshots*
+![image](https://github.com/user-attachments/assets/c0cf97ac-eac2-442f-95e0-7fd9169b8412)
+![image](https://github.com/user-attachments/assets/b06bf70c-d4ea-4727-8680-47cfffac2348)
+![image](https://github.com/user-attachments/assets/4827b801-9d84-4ed4-8d5b-1add54392ffd)
+
 
 ## *Author*
 
