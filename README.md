@@ -34,13 +34,13 @@ python app.py
 ```
 #it will run automatically on http://127.0.0.1:5000/.
 
-## *API Endpoints*
+#### *API Endpoints*
 
-## *1. Upload Endpoint (POST /upload)*
+### *1. Upload Endpoint (POST /upload)*
 
- Upload a CSV file to train the model.
+# Upload a CSV file to train the model.
 
- Request Body: A CSV file with columns: Machine_ID, Temperature, Run_Time, Downtime_Flag.
+# Request Body: A CSV file with columns: Machine_ID, Temperature, Run_Time, Downtime_Flag.
 
 # Response:
 {
@@ -48,7 +48,7 @@ python app.py
     "columns": ["Machine_ID", "Temperature", "Run_Time", "Downtime_Flag"]
 }
 
-## *2. Train Endpoint (POST /train)*
+### *2. Train Endpoint (POST /train)*
 
 # Train a machine learning model on the uploaded dataset.
 
@@ -58,9 +58,9 @@ python app.py
     "f1_score": 1.0
 }
 
-## *3. Predict Endpoint (POST /predict)*
+### *3. Predict Endpoint (POST /predict)*
 
- Make predictions using the trained model.
+# Make predictions using the trained model.
 
 # Request Body (JSON):
 {
@@ -74,30 +74,26 @@ python app.py
     "Confidence": 1.0
 }
 
-## *Sample Dataset*
+### *Sample Dataset*
 
- A sample dataset (sample_data.csv) is included in the data/ folder.
-
-![image](https://github.com/user-attachments/assets/72e18cc3-4924-473e-89fa-faac16b9b006)
+# A sample dataset (sample_data.csv) is included in the data/ folder.
 
 ### *Dependencies*
 
  Flask
+
  scikit-learn
+
  joblib
+
  pandas
+
  Python 3.9+
 
-## *Testing*
+### *Testing*
 
- Use tools like Postman or cURL to test the API endpoints.
+# Use tools like Postman or cURL to test the API endpoints.
 
-## *Screenshots*
-![image](https://github.com/user-attachments/assets/c0cf97ac-eac2-442f-95e0-7fd9169b8412)
-![image](https://github.com/user-attachments/assets/b06bf70c-d4ea-4727-8680-47cfffac2348)
-![image](https://github.com/user-attachments/assets/4827b801-9d84-4ed4-8d5b-1add54392ffd)
+### *Author*
 
-
-## *Author*
-
-# *Tashmeet Kaur Hora*
+## *Tashmeet Kaur Hora*

@@ -1,0 +1,6 @@
+Machine_ID,Temperature,Run_Time,Downtime_Flag
+1,75,100,0
+2,85,120,1
+3,60,90,0
+4,80,110,1
+5,70,95,0
